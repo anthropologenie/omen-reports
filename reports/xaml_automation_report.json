@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "last_updated": "2026-06-02T10:18:22.343251Z",
-  "total_files_processed": 6,
+  "last_updated": "2026-06-02T10:45:46.684170Z",
+  "total_files_processed": 7,
   "results": [
     {
       "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/PrimeBarControl.xaml",
@@ -216,6 +216,41 @@
       "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/PrimeBarControlV3.xaml",
       "processed_at": "2026-06-02T11:30:00Z",
       "pom_class": "PrimeBarControlPage",
+      "automation_gap_table": [
+        {
+          "element_type": "Button",
+          "x_name": "OverlayIconButton",
+          "section": "Navigation",
+          "purpose": "Overlay menu button"
+        }
+      ],
+      "priority_details": {
+        "high": [
+          {
+            "feature": "Navigation - Overlay Menu",
+            "element_type": "Button",
+            "x_name": "OverlayIconButton",
+            "purpose": "Overlay menu button",
+            "issue": "Missing Automation ID"
+          }
+        ],
+        "medium": [],
+        "low": []
+      },
+      "summary": {
+        "total_elements": 44,
+        "elements_with_automation_id": 8,
+        "elements_missing_automation_id": 36,
+        "high_priority_missing": 8,
+        "medium_priority_missing": 9,
+        "low_priority_missing": 19
+      }
+    },
+    {
+      "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/PrimeBarControlV4.xaml",
+      "processed_at": "2026-06-02T12:00:00Z",
+      "pom_class": "PrimeBarControlPage",
+      "pom_class_code": "package com.hp.omen.pages;\n\npublic class PrimeBarControlPage extends ElementBase {\n    public WebElement settingsButton() {\n        return element(Constants.ACCESSIBILITY_ID, \"SettingsButton\");\n    }\n}",
       "automation_gap_table": [
         {
           "element_type": "Button",
