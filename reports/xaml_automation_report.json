@@ -1,10 +1,50 @@
 {
   "report_version": "1.0",
   "last_updated": "2026-06-02T10:00:00Z",
-  "total_files_processed": 1,
+  "total_files_processed": 2,
   "results": [
     {
       "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/PrimeBarControl.xaml",
+      "processed_at": "2026-06-02T10:00:00Z",
+      "pom_class": "PrimeBarControlPage_placeholder",
+      "automation_gap_table": [
+        {
+          "element_type": "Button",
+          "x_name": "OverlayIconButton",
+          "section": "Navigation",
+          "purpose": "Overlay menu button"
+        },
+        {
+          "element_type": "Button",
+          "x_name": "HomeIconButton",
+          "section": "Navigation",
+          "purpose": "Home menu button"
+        }
+      ],
+      "priority_details": {
+        "high": [
+          {
+            "feature": "Navigation - Overlay Menu",
+            "element_type": "Button",
+            "x_name": "OverlayIconButton",
+            "purpose": "Overlay menu button",
+            "issue": "Missing Automation ID"
+          }
+        ],
+        "medium": [],
+        "low": []
+      },
+      "summary": {
+        "total_elements": 44,
+        "elements_with_automation_id": 8,
+        "elements_missing_automation_id": 36,
+        "high_priority_missing": 8,
+        "medium_priority_missing": 9,
+        "low_priority_missing": 19
+      }
+    },
+    {
+      "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/SecondFile.xaml",
       "processed_at": "2026-06-02T10:00:00Z",
       "pom_class": "PrimeBarControlPage_placeholder",
       "automation_gap_table": [
