@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "last_updated": "2026-06-02T10:45:46.684170Z",
-  "total_files_processed": 7,
+  "last_updated": "2026-06-02T11:14:47.187093Z",
+  "total_files_processed": 8,
   "results": [
     {
       "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/PrimeBarControl.xaml",
@@ -279,6 +279,134 @@
         "high_priority_missing": 8,
         "medium_priority_missing": 9,
         "low_priority_missing": 19
+      }
+    },
+    {
+      "file_path": "AccessoryMouseLightingModule/Views/MouseColorPickerControl.xaml",
+      "processed_at": "2026-06-02T12:30:00Z",
+      "pom_class": "No POM class generated \u2014 all elements missing Automation IDs",
+      "pom_class_code": "No POM class generated. All 8 elements are missing Automation IDs. Add Automation IDs to at minimum KBBasicAdvColorPickerControl and KBBasicAdvBtnControl, then regenerate.",
+      "automation_gap_table": [
+        {
+          "element_type": "UserControl",
+          "x_name": "mainUserControl",
+          "section": "Root",
+          "purpose": "Root container for Mouse Color Picker UI"
+        },
+        {
+          "element_type": "Grid",
+          "x_name": "(none)",
+          "section": "Layout",
+          "purpose": "Layout container for color picker and label"
+        },
+        {
+          "element_type": "Label",
+          "x_name": "(none)",
+          "section": "Display",
+          "purpose": "Displays color picker description label"
+        },
+        {
+          "element_type": "Grid",
+          "x_name": "colorPickerControl",
+          "section": "Color Picker Container",
+          "purpose": "Container for color picker controls"
+        },
+        {
+          "element_type": "Canvas",
+          "x_name": "(none)",
+          "section": "Layout",
+          "purpose": "Layout for color picker and button controls"
+        },
+        {
+          "element_type": "Grid",
+          "x_name": "(none)",
+          "section": "Layout",
+          "purpose": "Container for advanced color picker control"
+        },
+        {
+          "element_type": "KBBasicAdvColorPickerControl",
+          "x_name": "(none)",
+          "section": "Color Picker",
+          "purpose": "Advanced color picker control"
+        },
+        {
+          "element_type": "KBBasicAdvBtnControl",
+          "x_name": "(none)",
+          "section": "Button",
+          "purpose": "Button control for color picker"
+        }
+      ],
+      "priority_details": {
+        "high": [
+          {
+            "feature": "Advanced Color Picker Control",
+            "element_type": "KBBasicAdvColorPickerControl",
+            "x_name": "(none)",
+            "purpose": "Advanced color picker control for selecting mouse lighting colors",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Color Picker Button Control",
+            "element_type": "KBBasicAdvBtnControl",
+            "x_name": "(none)",
+            "purpose": "Button control for color picker operations",
+            "issue": "Missing Automation ID"
+          }
+        ],
+        "medium": [
+          {
+            "feature": "Color Picker Description Label",
+            "element_type": "Label",
+            "x_name": "(none)",
+            "purpose": "Displays color picker description label",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Color Picker Container Grid",
+            "element_type": "Grid",
+            "x_name": "colorPickerControl",
+            "purpose": "Container for color picker controls",
+            "issue": "Missing Automation ID"
+          }
+        ],
+        "low": [
+          {
+            "feature": "Root User Control",
+            "element_type": "UserControl",
+            "x_name": "mainUserControl",
+            "purpose": "Root container for Mouse Color Picker UI",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Main Layout Grid",
+            "element_type": "Grid",
+            "x_name": "(none)",
+            "purpose": "Layout container for color picker and label",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Canvas Layout",
+            "element_type": "Canvas",
+            "x_name": "(none)",
+            "purpose": "Layout for color picker and button controls",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Advanced Color Picker Container Grid",
+            "element_type": "Grid",
+            "x_name": "(none)",
+            "purpose": "Container for advanced color picker control",
+            "issue": "Missing Automation ID"
+          }
+        ]
+      },
+      "summary": {
+        "total_elements": 8,
+        "elements_with_automation_id": 0,
+        "elements_missing_automation_id": 8,
+        "high_priority_missing": 2,
+        "medium_priority_missing": 2,
+        "low_priority_missing": 4
       }
     }
   ]
