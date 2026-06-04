@@ -1,7 +1,7 @@
 {
   "report_version": "1.0",
-  "last_updated": "2026-06-02T11:14:47.187093Z",
-  "total_files_processed": 8,
+  "last_updated": "2026-06-04T06:38:52.738583Z",
+  "total_files_processed": 9,
   "results": [
     {
       "file_path": "Source/Features/Services/Homepage/Prime/Module/Views/PrimeBarControl.xaml",
@@ -406,6 +406,147 @@
         "elements_missing_automation_id": 8,
         "high_priority_missing": 2,
         "medium_priority_missing": 2,
+        "low_priority_missing": 4
+      }
+    },
+    {
+      "file_path": "ContosoAirAppScenarios/git/git1/TooltipControl.xaml",
+      "processed_at": "2026-06-04T10:00:00Z",
+      "pom_class": "No POM class generated \u2014 all elements missing Automation IDs",
+      "pom_class_code": "No POM class generated. Add Automation IDs to interactive elements then regenerate.",
+      "automation_gap_table": [
+        {
+          "element_type": "UserControl",
+          "x_name": "(none)",
+          "section": "Root",
+          "purpose": "Main container for the tooltip control"
+        },
+        {
+          "element_type": "Grid",
+          "x_name": "(none)",
+          "section": "Layout",
+          "purpose": "Main layout container for the control"
+        },
+        {
+          "element_type": "Button",
+          "x_name": "ButtonToolTip",
+          "section": "Button",
+          "purpose": "Triggers display of tooltip popup"
+        },
+        {
+          "element_type": "Grid",
+          "x_name": "(none)",
+          "section": "Layout",
+          "purpose": "Layout for Button template visuals"
+        },
+        {
+          "element_type": "Grid",
+          "x_name": "(none)",
+          "section": "Layout",
+          "purpose": "Layout for image and ellipse visuals"
+        },
+        {
+          "element_type": "Image",
+          "x_name": "InfoPopupImage",
+          "section": "Display",
+          "purpose": "Displays the tooltip image"
+        },
+        {
+          "element_type": "Ellipse",
+          "x_name": "EllipseColor",
+          "section": "Display",
+          "purpose": "Visual indicator for tooltip state"
+        },
+        {
+          "element_type": "Popup",
+          "x_name": "MyPop",
+          "section": "Display",
+          "purpose": "Hosts the tooltip popup content"
+        },
+        {
+          "element_type": "ContentControl",
+          "x_name": "content",
+          "section": "Display",
+          "purpose": "Hosts the popup template/content"
+        }
+      ],
+      "priority_details": {
+        "high": [
+          {
+            "feature": "Tooltip trigger button",
+            "element_type": "Button",
+            "x_name": "ButtonToolTip",
+            "purpose": "Triggers display of tooltip popup",
+            "issue": "Missing Automation ID"
+          }
+        ],
+        "medium": [
+          {
+            "feature": "Tooltip image",
+            "element_type": "Image",
+            "x_name": "InfoPopupImage",
+            "purpose": "Displays the tooltip image",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Tooltip popup",
+            "element_type": "Popup",
+            "x_name": "MyPop",
+            "purpose": "Hosts the tooltip popup content",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Popup content",
+            "element_type": "ContentControl",
+            "x_name": "content",
+            "purpose": "Hosts the popup template/content",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Visual indicator",
+            "element_type": "Ellipse",
+            "x_name": "EllipseColor",
+            "purpose": "Visual indicator for tooltip state",
+            "issue": "Missing Automation ID"
+          }
+        ],
+        "low": [
+          {
+            "feature": "Tooltip root",
+            "element_type": "UserControl",
+            "x_name": "(none)",
+            "purpose": "Main container for the tooltip control",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Main layout",
+            "element_type": "Grid",
+            "x_name": "(none)",
+            "purpose": "Main layout container for the control",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Button visuals layout",
+            "element_type": "Grid",
+            "x_name": "(none)",
+            "purpose": "Layout for Button template visuals",
+            "issue": "Missing Automation ID"
+          },
+          {
+            "feature": "Image/Ellipse visuals layout",
+            "element_type": "Grid",
+            "x_name": "(none)",
+            "purpose": "Layout for image and ellipse visuals",
+            "issue": "Missing Automation ID"
+          }
+        ]
+      },
+      "summary": {
+        "total_elements": 9,
+        "elements_with_automation_id": 0,
+        "elements_missing_automation_id": 9,
+        "high_priority_missing": 1,
+        "medium_priority_missing": 4,
         "low_priority_missing": 4
       }
     }
